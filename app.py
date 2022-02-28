@@ -1819,7 +1819,7 @@ def reporting():
 
  
  if request.method == 'POST':
-    dataset = pd.read_excel("CRA-2021M11DB-Revenue-000-final-anubhav-dummy-20210117-final.xlsx", sheet_name='Data')
+    dataset = pd.read_excel("CRA-2021M11DB-Revenue-000-final-anubhav-dummy-20210117-final.csv", sheet_name='Data')
     
     if current_user.network == 'SEN':
       dataset = dataset[dataset.Network == 'SEN']
