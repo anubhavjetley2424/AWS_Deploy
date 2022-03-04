@@ -252,18 +252,18 @@ def login():
                 return redirect(url_for('dashboard'))
                else:
                   message = "Please Enter a valid Network"
-                  return render_template("templates/login.html", form=form, user_image=pic1, message=message)
+                  return render_template("login.html", form=form, user_image=pic1, message=message)
 
          else:
                 message_1 = "Incorrect Password Entered. Please Check that you have Entered the correct Password"
-                return render_template("templates/login.html", form=form, user_image=pic1, message=message_1)
+                return render_template("login.html", form=form, user_image=pic1, message=message_1)
         else:
             message_2 = "Incorrect Username or Network entered"
-            return render_template("templates/login.html", form=form, user_image=pic1, message=message_2)
+            return render_template("login.html", form=form, user_image=pic1, message=message_2)
 
       
     else:
-      return render_template("templates/login.html", form=form, user_image=pic1)
+      return render_template("login.html", form=form, user_image=pic1)
 
     
 
