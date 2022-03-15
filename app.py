@@ -1567,7 +1567,7 @@ def submit():
         bucket = 'miltondata-radio1'
        
       
-        s3 = boto3.client('s3', aws_access_key_id = 'AWS_ACCESS_KEY_ID', aws_secret_access_key = 'AWS_SECRET_ACCESS_KEY')
+        s3 = boto3.client('s3', aws_access_key_id = 'AKIAWTUKFQZRZEVHFF7W', aws_secret_access_key = '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')
         csv_buf = StringIO()
         table_milton.to_csv(csv_buf, header=True, index=False)
         csv_buf.seek(0)
