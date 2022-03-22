@@ -319,7 +319,28 @@ network_mkt = []
 revenue_list = []
 
 thisdict =	{
-  "Adam.Bainbridge@sca.com.au" : "Adam Bainbridge"
+ "Adam.Bainbridge@sca.com.au" : "Adam Bainbridge",
+ "anubhav.jetley123@gmail.com.au" : "Anubhav Jetley",
+ "radio97@bigpond.net.au" : "Robyn Maclean",
+ "degroote@capitalradio.net.au" : "Angela De Groote",
+ "elliott@blytongroup.com.au" : "Josh Elliott",
+ "darylf@team.aceradio.com.au" : "Daryl Foster",
+ "mraco@aceradio.com.au" : "Maria Raco",
+ "Abbyzhang@arn.com.au" : "Abby Zhang",
+ "sooshin@arn.com.au" : "Soo Shin",
+ "caroline.anderson@macquariemedia.com.au" : "Caroline Anderson",
+ "deanne.hassett@macquariemedia.com.au" : "Deanne Hassett",
+ "mchappell@novaentertainment.com.au" : "Mark Chappell",
+ "sallywalker@novaentertainment.com.au" : "Sally Walker",
+ "Accounts@rsn.net.au" : "RSN Accounts",
+ "shaneC@rsn.net.au" : "Shane Caruana",
+ "Sharon.whishwilson@sca.com.au" : "Sharon Whishwilson",
+ "ian.vendargon@sen.com.au" : "Ian Vendargon",
+ "ivendargon@sen.com.au": "Ian Vendargon",
+ "teresa.leung@sen.com.au" : "Teresa Leung",
+ "kevin.buckley@tabcorp.com.au" : "Kevin Buckley",
+ "iang@gmail.com": "IanG"
+   
   
 
 }
