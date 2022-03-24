@@ -1367,7 +1367,7 @@ def submit():
       
 
        
-        if len(station_table) == 1:
+        if len(incomplete) == 0:
          
          table_to_s3(table_milton, table)
          print(table_milton)
