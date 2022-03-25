@@ -1254,7 +1254,7 @@ def submit():
         df_new_1 = pd.DataFrame(columns_list)
         df_new_1['DateTime'] = Datetime
         df_new_1['Network'] = network
-        df_new_1['UserId'] = email_list[-1]
+        df_new_1['UserId'] = current_user.email
         df_new_1['UserName'] = contact
         df_new_1['Month'] = Month 
         df_new_1['MonthCode'] = month_function
