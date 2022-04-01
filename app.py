@@ -331,7 +331,7 @@ revenue_list = []
 thisdict =	{
   "Adam.Bainbridge@sca.com.au" : "Adam Bainbridge", 
   "anubhav.jetley123@gmail.com" : "Anubhav Jetley",
-  "radio97@bigpond.net.au" : "Robyn Maclean",
+  "radio97@superradionetwork.com.au" : "Robyn Maclean",
   "degroote@capitalradio.net.au" : "Angela De Groote",
   "elliott@blytongroup.com.au" : "Josh Elliott",
   "darylf@team.aceradio.com.au" : "Daryl Foster",
