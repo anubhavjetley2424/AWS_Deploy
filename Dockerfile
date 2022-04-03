@@ -17,7 +17,7 @@ RUN pip install awscli
 
 
 # By default, listen on port 5000
-EXPOSE 5000
+
 
 
 # Copy the dependencies file to the working directory
