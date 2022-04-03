@@ -1376,13 +1376,13 @@ def review():
         
         
          if station in station_edit_Bri:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRIT1', 'BRIT2', 'BRIDirect', 'ADETotal', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDT1', 'QLDT2', 'QLDDirect', 'SATotal', 'WATotal'])
          if station in station_edit_Ade:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADET1', 'ADET2', 'ADEDirect', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SAT1', 'SAT2', 'SADirect', 'WATotal'])
          if station in station_edit_Per:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADETotal', 'PERT1', 'PERT2', 'PERDirect'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SATotal', 'WAT1', 'WAT2', 'WADirect'])
          if station in station_edit_Mel_Syd:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADETotal', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SATotal', 'WATotal'])
          if station in station_edit_National:
           row_df = pd.DataFrame(data = l, columns = ['', 'NationalTotal'])
 
@@ -1588,13 +1588,13 @@ def submit():
         
         
          if station in station_edit_Bri:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRIT1', 'BRIT2', 'BRIDirect', 'ADETotal', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDT1', 'QLDT2', 'QLDDirect', 'SATotal', 'WATotal'])
          if station in station_edit_Ade:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADET1', 'ADET2', 'ADEDirect', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SAT1', 'SAT2', 'SADirect', 'WATotal'])
          if station in station_edit_Per:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADETotal', 'PERT1', 'PERT2', 'PERDirect'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SATotal', 'WAT1', 'WAT2', 'WADirect'])
          if station in station_edit_Mel_Syd:
-          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'BRITotal', 'ADETotal', 'PERTotal'])
+          row_df = pd.DataFrame(data = l, columns = ['', 'NSWT1', 'NSWT2', 'NSWDirect', 'VICT1', 'VICT2', 'VICDirect', 'QLDTotal', 'SATotal', 'WATotal'])
          if station in station_edit_National:
           row_df = pd.DataFrame(data = l, columns = ['', 'NationalTotal'])
 
