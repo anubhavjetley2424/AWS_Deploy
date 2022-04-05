@@ -623,7 +623,7 @@ station_edit_National.append('SENPodcast-National')
 station_edit_National.append('TABStreaming-National')
 station_edit_National.append('TABPodcast-National')
 #NOVA
-station_edit_National.append('Novatreaming-National')
+station_edit_National.append('NovaStreaming-National')
 station_edit_National.append('NovaPodcast-National')
 
 
