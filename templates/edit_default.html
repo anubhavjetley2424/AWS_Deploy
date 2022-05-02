@@ -182,6 +182,7 @@ div.main {
   <br></br>
   <br></br>
   <br></br>
+  <br></br>
   <p> Helpdesk: Milton Data 0407-042-068</p>
   
 </div>
@@ -203,46 +204,6 @@ div.main {
   
   <br></br>
   <p style="margin-left: 7%;">Please enter all figures in 1000s with three decimal places without commas or $ signs (eg 1234.987 for $1,234.987)</p>
-<form style="margin-left:6%; align-items: center"  method="POST">
-  {{ form.csrf_token }}
-  <p> {{station}} NSW T1 (Enter numbers and decimal point only)</p>
-   {{ form.SydT1}}
-   
-   
-   <br></br>
-   <p> {{station}} NSW T2 (Enter numbers and decimal point only)</p>
-   {{ form.SydT2}}
-   <br</br>
-   <p> {{station}} NSW Direct (Enter numbers and decimal point only)</p>
-   {{ form.SydDirect}}
- <br></br>
-  <p> {{station}} VIC T1 (Enter numbers and decimal point only)</p>
-  {{ form.MelT1}}
-  <br></br>
-  <p> {{station}} VIC T2 (Enter numbers and decimal point only)</p>
-  {{ form.MelT2}}
-  <br></br>
-  <p> {{station}} VIC Direct (Enter numbers and decimal point only)</p>
-  {{ form.MelDirect}}
-  <br></br>
-  <p> {{station}} BRI Total (Enter numbers and decimal point only)</p>
-  {{ form.BriTotal}}
-  <br></br>
-  <p> {{station}} ADE Total (Enter numbers and decimal point only)</p>
-  {{ form.AdeTotal}}
-  <br></br>
-  <p> {{station}} PER Total (Enter numbers and decimal point only)</p>
-  {{ form.PerTotal}}
 
-    <br></br>
- 
-
-    {{ form.submitprofits(class_= "form-btn") }} 
-    <br></br>
-    <p>{{ message_2 }}</p> 
-    
-
-
-</form>
 
 </div>
