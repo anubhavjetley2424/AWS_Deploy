@@ -1495,6 +1495,7 @@ def submit():
      station = list_st[-1]
      if station == "":
          station = list_st[-2]
+           
 
 
      name = month + "-" + network + "-" + contact + "-" + station + ".db"
