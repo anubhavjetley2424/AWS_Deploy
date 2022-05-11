@@ -156,7 +156,7 @@ network_dict = {
   "ACE" : ["3MP-Mel", "2UE-Syd", "Magic1278-Mel", "4BH-Bri", "ACEDAB-Syd", "ACEDAB-Mel", "ACEDAB-Bri", "ACEStreaming-National", "ACEPodcast-National"],
   "ARN" : ["KIIS1065-Syd", "KIIS101.1-Mel" , "New97.3-Bri", "MIX102.3-Ade", "96FM-Per", "WSFM-Syd", "GOLD104.3-Mel", "4KQ-Bri", "Cruise-Ade", "ARNDAB-Syd", "ARNDAB-Mel", "ARNDAB-Bri", "ARNDAB-Ade", "ARNDAB-Per", "ARNStreaming-National", "ARNPodcast-National"],
   "NineRadio" : ["2GB-Syd", "3AW-Mel", "4BC-Bri", "6PR-Per", "NineDAB-Syd", "NineDAB-Mel", "NineDAB-Bri", "NineDAB-Per", "NineStreaming-Nat", "NinePodcast-Nat"],
-  "2SM" : ["2SM-Syd", "2SMDAB-Syd", "2SMStreaming-National", "SMPodcast-National"]
+  "2SM" : ["2SM-Syd", "2SMDAB-Syd", "2SMStreaming-National", "2SMPodcast-National"]
 }
 
 
