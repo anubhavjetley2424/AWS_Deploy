@@ -1400,7 +1400,7 @@ def review():
         del station 
         index = index + 1
 
-        if station in review_station_list:
+       if station in review_station_list:
          del station
          index = index + 1
 
