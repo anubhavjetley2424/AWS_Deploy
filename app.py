@@ -1331,7 +1331,7 @@ def review():
 
  def incomplete_station_def():
     
-
+    print(networks)
     incomplete_station_data_list = []
     for i in networks:  
      if i not in station_table:
@@ -1340,12 +1340,14 @@ def review():
     incomplete = []
     for element in incomplete_station_data_list:
      if element not in incomplete:
-      if element in networks:
+      if element not in networks:
+       del element
+      else:
        incomplete.append(element)
     
       
       
-
+    print(incomplete)
     df_incomplete = pd.DataFrame(incomplete, columns=['Unedited Stations'])
     return df_incomplete, incomplete
 
@@ -1390,7 +1392,7 @@ def review():
 
        else:
         review_station_list.append(station)
-        print(review_station_list)
+        print(station)
        
         name = month + "-" + network + "-" + contact + "-" + station + ".db"
     
