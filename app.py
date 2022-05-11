@@ -1346,7 +1346,7 @@ def review():
        incomplete.append(element)
     
       
-      
+    print(current_user.network) 
     print(incomplete)
     df_incomplete = pd.DataFrame(incomplete, columns=['Unedited Stations'])
     return df_incomplete, incomplete
