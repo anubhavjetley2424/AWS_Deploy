@@ -1340,6 +1340,7 @@ def review():
     incomplete = []
     for element in incomplete_station_data_list:
      if element not in incomplete:
+      if element in networks:
        incomplete.append(element)
     
       
