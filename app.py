@@ -1453,7 +1453,7 @@ def review():
        header_complete = ("All Station Data Entered")
        message_complete = ("Please select Submit from the Select Action box to send your details to Milton Data")
        del df_incomplete
-       return render_template("review.html", form=form, form_1 = form_1, user_image=pic, network=current_user.network, contact=contact,  message_complete = message_complete, header_complete = header_complete, tables=[df.to_html(classes='data', header="true")])
+       return render_template("review_complete.html", form=form, form_1 = form_1, user_image=pic, network=current_user.network, contact=contact,  message_complete = message_complete, header_complete = header_complete, tables=[df.to_html(classes='data', header="true")])
      else:
       return render_template("review.html", form=form, form_1 = form_1, user_image=pic, network=current_user.network, contact=contact, tables_incomplete = [df_incomplete.to_html(classes='incomplete')])
 
