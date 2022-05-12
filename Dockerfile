@@ -17,7 +17,7 @@ RUN pip install awscli
 
 
 # By default, listen on port 5000
-
+EXPOSE 5000
 
 
 # Copy the dependencies file to the working directory
@@ -26,6 +26,7 @@ COPY . .
 # Specify app environment
 ENV FLASK_APP=app.py
 
-# Specify the command to run on container start
-CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+RUN chmod + x gunicorn_starter.sh
+
+ENTRYPOINT ["./gunicorn_starter.sh"]
 
