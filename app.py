@@ -1372,13 +1372,14 @@ def review():
      stations = []
      df = pd.DataFrame([])
      review_station_list = []
+     network_stations = network_dict.get(current_user.network)
      
      for x in range(1,18):
       
       if len(list_st) >= index:
        month = var_list[-index]
        station = list_st[-index]
-       if station not in networks :
+       if station not in network_stations:
         del station 
         index = index + 1
 
