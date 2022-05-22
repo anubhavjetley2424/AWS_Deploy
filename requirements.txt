@@ -12,7 +12,7 @@ dash-core-components==2.0.0
 dash-deck==0.0.1
 dash-html-components==2.0.0
 dash-table==5.0.0
-
+waitress==1.2.1
 
 openpyxl == 3.0.9
 
