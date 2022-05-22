@@ -7,17 +7,17 @@ ADD app.py /
 ADD requirements.txt /
 
 
-ENV TZ = "Australia/NSW"
+
 
 ADD this_folder /
 
 # Install any dependencies
 RUN pip install -r /requirements.txt 
-RUN pip install awscli
+
 
 
 # By default, listen on port 5000
-EXPOSE 5000
+
 
 
 # Copy the dependencies file to the working directory
@@ -27,5 +27,5 @@ COPY . .
 ENV FLASK_APP=app.py
 
 # Specify the command to run on container start
-CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD ["python","app.py"]
 
