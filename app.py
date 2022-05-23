@@ -700,15 +700,15 @@ def edit():
 
 
  def return_template(station):
-     if item in station_edit_Bri:
+     if station in station_edit_Bri:
            return  render_template("edit_Bri.html", form=form, form_1 = form_1, month=month, contact = contact, station=station, user_image=pic, network = current_user.network)
-     if item in station_edit_Ade:
+     if station in station_edit_Ade:
            return  render_template("edit_Ade.html", form=form, form_1 = form_1, month=month, contact = contact, station=station, user_image=pic, network = current_user.network)
-     if item in station_edit_Per:
+     if station in station_edit_Per:
            return  render_template("edit_Per.html", form=form, form_1 = form_1, month=month, contact = contact, station=station, user_image=pic, network = current_user.network)
-     if item in station_edit_National:
+     if station in station_edit_National:
            return  render_template("edit_Metro.html", form=form, form_1 = form_1, month=month, contact = contact, station=station, user_image=pic, network = current_user.network)
-     if item in station_edit_Mel_Syd:
+     if station in station_edit_Mel_Syd:
            return  render_template("edit.html", form=form, form_1 = form_1, month=month, contact = contact, station=station, user_image=pic, network = current_user.network) 
 
  pic = os.path.join(app.config['UPLOAD_FOLDER'], 'cra-logo.jpg' )
@@ -1364,7 +1364,7 @@ def edit():
 
            with sqlite3.connect(name) as conn: 
             print(station)
-            item = station_table_edit2[-1]
+            
             if listOfTables != []:
              if station in station_edit_Bri:
               d = conn.cursor()
@@ -1450,7 +1450,7 @@ def edit():
  
  if station_table_edit2: 
 
-  item = station_table_edit2[-1]
+  
   
   
 
