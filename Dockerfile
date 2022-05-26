@@ -27,5 +27,5 @@ COPY . .
 ENV FLASK_APP=app.py
 
 # Specify the command to run on container start
-CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD ["python","app.py"]
 
