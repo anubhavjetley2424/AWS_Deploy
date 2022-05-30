@@ -698,7 +698,7 @@ def edit():
  
  contact = thisdict.get(current_user.email)
  if len(dashboard_var_list) == 0:
-  dashboard_var_list.append('2022M04')
+  dashboard_var_list.append('2022M05')
 
 
  def return_template(station):
