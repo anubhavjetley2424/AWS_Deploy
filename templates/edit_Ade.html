@@ -208,48 +208,48 @@ div.main {
   <br></br>
   <form style="margin-left: 51%; align-items: center; text-align: center;"  method="POST">
     <p style="margin-left:-94%">Click the box below, if you wish to enter all markets as 0</p>
-    {{ form.fillzeroes(class_="checkbox", **{"onchange":"this.form.submit()"}) }} 
+    {{ revenue_form.fillzeroes(class_="checkbox", **{"onchange":"this.form.submit()"}) }} 
   </form>
   <br></br>
   <p style="margin-left:7%;">Please enter all figures in 1000s with three decimal places without commas or $ signs (eg 1234.987 for $1,234.987)</p>
 <form style="margin-left: 6%; align-items: center"  method="POST">
-  {{ form.csrf_token }}
+  {{ revenue_form.csrf_token }}
   <p> {{station}} NSW T1 (Enter numbers and decimal point only)</p>
-   {{ form.SydT1}}
+   {{ revenue_form.SydT1}}
    <br></br>
    <p> {{station}} NSW T2  (Enter numbers and decimal point only)</p>
-   {{ form.SydT2}}
+   {{ revenue_form.SydT2}}
    <br</br>
    <p> {{station}} NSW Direct  (Enter numbers and decimal point only)</p>
-   {{ form.SydDirect}}
+   {{ revenue_form.SydDirect}}
  <br></br>
   <p> {{station}} VIC T1  (Enter numbers and decimal point only)</p>
-  {{ form.MelT1}}
+  {{ revenue_form.MelT1}}
   <br></br>
   <p> {{station}} VIC T2  (Enter numbers and decimal point only)</p>
-  {{ form.MelT2}}
+  {{ revenue_form.MelT2}}
   <br></br>
   <p> {{station}} VIC Direct  (Enter numbers and decimal point only)</p>
-  {{ form.MelDirect}}
+  {{ revenue_form.MelDirect}}
   <br></br>
   <p> {{station}} BRI Total  (Enter numbers and decimal point only)</p>
-  {{ form.BriTotal}}
+  {{ revenue_form.BriTotal}}
   <br></br>
   <p> {{station}} ADE T1 (Enter numbers and decimal point only)</p>
-  {{ form.AdeT1}}
+  {{ revenue_form.AdeT1}}
   <br></br>
   <p> {{station}} ADE T2  (Enter numbers and decimal point only)</p>
-  {{ form.AdeT2}}
+  {{ revenue_form.AdeT2}}
   <br></br>
   <p> {{station}} ADE Direct   (Enter numbers and decimal point only)</p>
-  {{ form.AdeDirect}}
+  {{ revenue_form.AdeDirect}}
   <br></br>
   <p> {{station}} PER Total (Enter numbers and decimal point only)</p>
-  {{ form.PerTotal}}
+  {{ revenue_form.PerTotal}}
 
     <br></br>
 
-    {{ form.submitprofits(class_= "form-btn") }} 
+    {{ revenue_form.submitprofits(class_= "form-btn") }} 
 
     <br></br>
     <p>{{ message_2 }}</p> 
